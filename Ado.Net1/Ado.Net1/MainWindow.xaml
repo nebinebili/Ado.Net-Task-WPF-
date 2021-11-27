@@ -1,0 +1,57 @@
+﻿<Window x:Class="Ado.Net1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ado.Net1"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="600" 
+        Width="1000"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <ComboBox
+            Height="40"
+            Margin="10,297,787,232"
+            Name="Authorcmbx"
+            FontSize="18" 
+            SelectionChanged="Authorcmbx_SelectionChanged"/>
+        <ComboBox
+            Height="40"
+            Margin="254,297,546,232"
+            Name="Categorycmbx"
+            FontSize="18" 
+            SelectionChanged="Categorycmbx_SelectionChanged"/>
+        <TextBox
+            Name="txb"
+            Margin="592,478,35,48"
+            FontSize="18"
+            TextChanged="TextBox_TextChanged"/>
+        <Button
+            Margin="592,309,256,212"
+            Content="Insert Book"
+            FontSize="20" Click="Button_Click" />
+        <DataGrid 
+            HorizontalAlignment="Left" 
+            Height="227" 
+            Margin="10,10,0,0" 
+            VerticalAlignment="Top" 
+            Name="datagrid"
+            Width="972"/>
+        <Button
+            Margin="813,309,35,212"
+            Content="Update Book"
+            FontSize="20" 
+            Name="btn_update" 
+            Click="btn_update_Click"/>
+        <Label
+            Content="Search Book"
+            FontSize="21" Margin="592,433,269,96"/>
+        <Label
+            Content="Book Categories"
+            FontSize="20" Margin="254,247,577,272"/>
+        <Label
+            Content="Book Authors"
+            FontSize="20" Margin="10,247,845,272"/>
+    </Grid>
+</Window>

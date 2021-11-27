@@ -1,0 +1,221 @@
+﻿<Window x:Class="Ado.Net1.InsertBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ado.Net1"
+        mc:Ignorable="d"
+        Title="InsertBook" Height="500" Width="450"
+        WindowStartupLocation="CenterScreen">
+    <Canvas>
+        <Label
+            Height="40"
+            Width="100"
+            Content="Id"
+            FontSize="20"
+            Canvas.Left="20">
+            
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="40"
+            Canvas.Left="20"
+            FontSize="18"
+            Name="txb_Id">
+            
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="100"
+            Content="Name"
+            FontSize="20"
+            Canvas.Left="20"
+            Canvas.Top="80">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="120"
+            Canvas.Left="20"
+            FontSize="18"
+            Name="txb_Name">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="100"
+            Content="Pages"
+            FontSize="20"
+            Canvas.Left="20"
+            Canvas.Top="150">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="190"
+            Canvas.Left="20"
+            FontSize="18"
+            Name="txb_Pages">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="100"
+            Content="YearPress"
+            FontSize="20"
+            Canvas.Left="20"
+            Canvas.Top="220">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="260"
+            Canvas.Left="20"
+            FontSize="18"
+            Name="txb_YearPress">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="100"
+            Content="Id_Themes"
+            FontSize="20"
+            Canvas.Left="20"
+            Canvas.Top="290">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="330"
+            Canvas.Left="20"
+            FontSize="18"
+            Name="txb_IdThemes">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="110"
+            Content="Id_Category"
+            FontSize="20"
+            Canvas.Left="250"
+            Canvas.Top="5">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="40"
+            Canvas.Left="250"
+            FontSize="18"
+            Name="txb_IdCategory">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="110"
+            Content="IdAuthor"
+            FontSize="20"
+            Canvas.Left="250"
+            Canvas.Top="80">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="120"
+            Canvas.Left="250"
+            FontSize="18"
+            Name="txb_IdAuthor">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="110"
+            Content="IdPress"
+            FontSize="20"
+            Canvas.Left="250"
+            Canvas.Top="150">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="190"
+            Canvas.Left="250"
+            FontSize="18"
+            Name="txb_IdPress">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="120"
+            Content="IdComment"
+            FontSize="20"
+            Canvas.Left="250"
+            Canvas.Top="220">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="260"
+            Canvas.Left="250"
+            FontSize="18"
+            Name="txb_Comment">
+
+        </TextBox>
+
+        <Label
+            Height="40"
+            Width="110"
+            Content="IdQuantity"
+            FontSize="20"
+            Canvas.Left="250"
+            Canvas.Top="290">
+
+        </Label>
+
+        <TextBox
+            Height="30"
+            Width="150"
+            Canvas.Top="330"
+            Canvas.Left="250"
+            FontSize="18"
+            Name="txb_Quantity">
+
+        </TextBox>
+
+        <Button
+            Height="30"
+            Width="100"
+            Content="Insert"
+            FontSize="20"
+            Canvas.Bottom="20"
+            Canvas.Right="30" Click="Button_Click">
+            
+        </Button>
+        
+    </Canvas>
+</Window>
